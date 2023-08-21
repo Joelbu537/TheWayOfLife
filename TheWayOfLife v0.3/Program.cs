@@ -64,7 +64,7 @@ namespace TWOL
                                     if ((j < 199) && (j > 1))
                                     {
                                         int cases = rand.Next(1, 5);
-                                        switch (expand)
+                                        switch (cases)
                                         {
                                             case 1:
                                                 map[(i - 1), j] = "#";
